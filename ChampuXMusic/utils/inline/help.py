@@ -91,9 +91,6 @@ def second_page(_):
                 InlineKeyboardButton(
                     text=_["H_B_18"], callback_data="help_callback hb18"
                 ),
-                InlineKeyboardButton(
-                    text=_["H_B_13"], callback_data="help_callback hb13"
-                ),
             ],
             [
                 InlineKeyboardButton(
