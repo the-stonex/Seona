@@ -1,5 +1,5 @@
 <h2 align="center">
-    「 𝕮𝖍𝖆𝖒𝖕𝖚 」</h2>
+    「 ₜₕₑ - ₛₜₒₙₑ 」</h2>
 
 <p align="center">
   <img src="https://github.com/TheChampu/ChampuMusic/blob/main/TheChampu.gif">
@@ -9,7 +9,7 @@
  <h3 align="center">
 ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs 
 
-[˹мꝛ ᴄʜᴧᴍᴘᴜ˼](https://t.me/TheChampu)
+[˹ₜₕₑ - ₛₜₒₙₑ˼](https://t.me/Dadu10x)
 <h3 align="center">
 <a href="https://github.com/TheChampu"><img alt="Website" src="https://img.shields.io/badge/𝕮𝖍𝖆𝖒𝖕𝖚-red"></a>
 
