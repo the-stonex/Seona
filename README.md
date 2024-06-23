@@ -11,7 +11,7 @@
 
 [˹ₜₕₑ - ₛₜₒₙₑ˼](https://t.me/Dadu10x)
 <h3 align="center">
-<a href="https://github.com/TheChampu"><img alt="Website" src="https://img.shields.io/badge/𝕮𝖍𝖆𝖒𝖕𝖚-red"></a>
+<a href="https://github.com/the-stonex"><img alt="Website" src="https://img.shields.io/badge/ₜₕₑ - ₛₜₒₙₑ-red"></a>
 
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/TheShivanshu)
