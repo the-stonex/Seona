@@ -125,6 +125,10 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="ᴄʜᴀᴛ", url=f"https://t.me/+-kj9BEEhruUxMDNl"),
+        ],
+        [
             InlineKeyboardButton(
                 text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
@@ -574,6 +578,10 @@ def panel_markup_clone(_, vidid, chat_id):
             InlineKeyboardButton(
                 text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {vidid}"
             ),
+        ],
+        [
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="ᴄʜᴀᴛ", url=f"https://t.me/+-kj9BEEhruUxMDNl"),
         ],
         [
             InlineKeyboardButton(
