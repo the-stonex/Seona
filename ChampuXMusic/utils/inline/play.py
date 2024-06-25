@@ -125,8 +125,85 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-           InlineKeyboardButton(text="𝑶𝒘𝒏𝒆𝒓", url=f"https://t.me/iishiikatkakur")
-           InlineKeyboardButton(text="𝑪𝒉𝒂𝒕", url=f"https://t.me/+4cEDA4oLWwQ5YzY1")
+            InlineKeyboardButton(
+                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
+                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+            ),
+        ],
+    ]
+
+    return buttons
+
+
+def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["P_B_1"],
+                callback_data=f"ChampuPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+            ),
+            InlineKeyboardButton(
+                text=_["P_B_2"],
+                callback_data=f"ChampuPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
+            ),
+        ],
+    ]
+    return buttons
+
+
+def livestream_markup(_, videoid, user_id, mode, channel, fplay):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_1"],
+                url=f"https://t.me/{app.username}?startgroup=true",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["P_B_3"],
+                callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
+            ),
+        ],
+    ]
+    return buttons
+
+
+def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
+    query = f"{query[:20]}"
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_1"],
+                url=f"https://t.me/{app.username}?startgroup=true",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["P_B_1"],
+                callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
+            ),
+            InlineKeyboardButton(
+                text=_["P_B_2"],
+                callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="◁",
+                callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -502,6 +579,10 @@ def panel_markup_clone(_, vidid, chat_id):
             InlineKeyboardButton(
                 text="✚ ᴘʟᴀʏʟɪsᴛ ✚", callback_data=f"Champu_playlist {vidid}"
             ),
+        ],
+ [
+           InlineKeyboardButton(text="𝑶𝒘𝒏𝒆𝒓", url=f"https://t.me/iishiikatkakur")
+           InlineKeyboardButton(text="𝑪𝒉𝒂𝒕", url=f"https://t.me/+4cEDA4oLWwQ5YzY1")
         ],
     ]
 
