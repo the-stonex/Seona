@@ -580,10 +580,6 @@ def panel_markup_clone(_, vidid, chat_id):
                 text="✚ ᴘʟᴀʏʟɪsᴛ ✚", callback_data=f"Champu_playlist {vidid}"
             ),
         ],
- [
-           InlineKeyboardButton(text="𝑪𝒉𝒂𝒕", url=f"https://t.me/+E-kVnMeWcANmNmM1")
-           InlineKeyboardButton(text="𝑪𝒉𝒂𝒕", url=f"https://t.me/+4cEDA4oLWwQ5YzY1")
-        ],
     ]
 
     return buttons
